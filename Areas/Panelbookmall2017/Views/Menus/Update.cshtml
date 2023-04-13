@@ -1,0 +1,76 @@
+﻿@model MenuUpdateModel
+<div class="row w-100">
+    <div id="card-upt" class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Mövcud menyunu yenilə</h4> <br /> <br /> <br />
+                <form class="forms-sample" method="post" asp-controller="menus" asp-action="Create" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Name">Menyunun adı</label>
+                        <textarea asp-for="Name" class="form-control" placeholder="Menyunun adı"></textarea>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FoodsId" class="text-dark h5">Foods</label>
+                        <select asp-for="FoodsId" asp-items="Model.Foods" class="sel form-control"></select>
+                        <span asp-validation-for="FoodsId" class="text-danger font-weight-bold"></span>
+                    </div>
+                    <button type="submit" style="color:black !important;margin-right: 1rem;" id='swelSlider' class="btn btn-primary mr-2">Submit</button>
+                    <button style="color:black!important;" class="btn btn-light" asp-action="Index">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editorAbout'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}
+
+    @section sweet{
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $('#swelSlider').click(function () {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Menyu yeniləndi',
+                showConfirmButton: false,
+                timer: 2000
+            })
+        })
+    </script>
+}
+
+    <style>
+        #card-slid {
+            margin-left: 152px;
+            margin-top: 120px;
+            width: 84%;
+        }
+
+        button {
+            margin-top: 30px !important;
+            color: white !important;
+        }
+
+        label {
+            font-size: 15px;
+            margin: 17px 0px;
+            color: #C19D60;
+            font-weight: 500;
+            background: none;
+        }
+
+        h3 {
+            margin-bottom: 3rem;
+        }
+    </style>

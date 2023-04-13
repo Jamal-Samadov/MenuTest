@@ -1,0 +1,53 @@
+﻿@model MenuCreateModel
+<div class="row w-100">
+    <div id="card-slid" class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"> Yeni menyu əlavə et</h4>
+                <form class="forms-sample" method="post" asp-controller="menus" asp-action="Create" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Name">Menyunun adı</label>
+                        <textarea asp-for="Name" class="form-control" placeholder="Menyunun adı"></textarea>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FoodsId" class="text-dark h5">Foods</label>
+                        <select asp-for="FoodsId" asp-items="Model.Foods" class="sel form-control"></select>
+                        <span asp-validation-for="FoodsId" class="text-danger font-weight-bold"></span>
+                    </div>
+                    <button type="submit" style="color:black !important;margin-right: 1rem;" id='swelSlider' class="btn btn-primary mr-2">Submit</button>
+                    <button style="color:black!important;" class="btn btn-light" asp-action="Index">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editorAbout'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}
+
+    @section sweet{
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $('#swelSlider').click(function () {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Yeni bir menyu yüklənildi',
+                showConfirmButton: false,
+                timer: 2000
+            })
+        })
+    </script>
+}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" integrity="sha512-xq+Vm8jC94ynOikewaQXMEkJIOBp7iArs3IhFWSWdRT3Pq8wFz46p+ZDFAR7kHnSFf+zUv52B3prRYnbDRdgog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

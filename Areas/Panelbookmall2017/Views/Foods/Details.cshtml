@@ -1,0 +1,36 @@
+﻿@model Food
+<div class="row w-100">
+    <div id="card-det" class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Yemək haqqında</h4> <br /> <br /> <br />
+                <h3>Yeməyin şəkli </h3>
+                <br /> <br /> <br />
+                <img src="~/assets/img/food/@Model.FoodImage" style="height:150px" /> <br /> <br /> <br />
+                <form class="forms-sample" asp-action="Update" enctype="multipart/form-data">
+                    <hr />
+                    <br /> <br /> <br />
+                    <div class="form-group">
+                        <h3 class="card-title">Yeməyin adı</h3>
+                        <em>@Model.Name</em>
+                    </div>
+                    <hr />
+                    <br /> <br /> <br />
+                    <div class="form-group">
+                        <h3 class="card-title">Yemək haqqında</h3>
+                        <em>@Html.Raw(Model.About)</em>
+                    </div>
+                    <hr />
+                    <br /> <br /> <br />
+                    <div class="form-group">
+                        <h3 class="card-title">Yeməyin qiyməti</h3>
+                        <em>$@Model.Price</em>
+                    </div>
+                    <br /> <br /> <br />
+                    <hr />
+                    <button style="color:black!important;" class="btn btn-primary" asp-action="Index">Back to Dashboard</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

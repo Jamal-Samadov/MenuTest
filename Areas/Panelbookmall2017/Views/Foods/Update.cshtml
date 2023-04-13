@@ -1,0 +1,63 @@
+﻿@model FoodUpdateModel
+<div class="row w-100">
+    <div id="card-upt" class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Mövcud yeməyi yenilə</h4> <br /> <br /> <br />
+                <h3>Yeməyin şəkli</h3>
+                <img src="~/assets/images/food/@Model.FoodImage" style="height:150px" /> <br /> <br /> <br />
+                <form class="forms-sample" method="post" asp-action="Update" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Image">Yeməyin şəkli</label>
+                        <input asp-for="Image" class="form-control" placeholder="Name" accept="image/*">
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Name">Yeməyin adı</label>
+                        <textarea asp-for="Name" class="form-control" placeholder="Food Name"></textarea>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="About">Yemək haqqında</label>
+                        <textarea asp-for="About" class="form-control" placeholder="Food about"></textarea>
+                        <span asp-validation-for="About" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Price">Yeməyin qiyməti</label>
+                        <input type="number" asp-for="Price" class="form-control" placeholder="Food price"/>
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <button type="submit" style="color:black !important;margin-right: 1rem;" id='swelSlider' class="btn btn-primary mr-2">Submit</button>
+                    <button style="color:black!important;" class="btn btn-light" asp-action="Index">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editorAbout'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}
+
+@section sweet{
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $('#swelSlider').click(function () {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Yemək yeniləndi',
+                showConfirmButton: false,
+                timer: 2000
+            })
+        })
+    </script>
+}

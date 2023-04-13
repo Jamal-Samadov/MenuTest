@@ -1,0 +1,39 @@
+﻿@model Menu
+<div class="row w-100">
+    <div id="card-det" class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Yemək haqqında</h4> <br /> <br /> <br />
+                <h3>Yeməyin şəkli </h3>
+                <br /> <br /> <br />
+                <form class="forms-sample" asp-action="Update" enctype="multipart/form-data">
+                    <hr />
+                    <br /> <br /> <br />
+                    <div class="form-group">
+                        <h3 class="card-title">Menyunun yeməkləri</h3>
+                        <em>@Model.Name</em>
+                    </div>
+                    <br /> <br /> <br />
+                    <hr />
+                    <br /> <br /> <br />
+                    <div class="form-group">
+                        <h3 class="card-title">Menyunun yeməkləri</h3>
+                        <em>
+                            <ul>
+                                @foreach (var menuuu in Model.MenuFoods)
+                                {
+                                    <img src="~/assets/img/food/@menuuu.Food.FoodImage" style="height: 99px;border-radius: 100%;object-fit: scale-down;" />
+                                    <br />
+                                    <br />
+                                    <li>@menuuu.Food.Name</li>
+                                    <hr />
+                                }
+                            </ul>
+                        </em>
+                    </div>
+                    <button style="color:black!important;" class="btn btn-primary" asp-action="Index">Back to Dashboard</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
