@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ita0fIsWJHKtF+IskvI6asex4HEDv41OfkvZxtDdoEk=",
+  "Hash": "lVY3ouI/uwlumVvkrcPgF7uKYVJAeBmUriic7BEMF3w=",
   "Source": "BookmallMenu",
   "BasePath": "_content/BookmallMenu",
   "Mode": "Default",
@@ -3485,6 +3485,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\food\\2a1361df-7565-4962-8199-5a1b9bea4e16-ciyer.jpeg"
     },
     {
+      "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\35ddfa33-ad74-4d33-9d2c-dbc74eb147e8-dusbere.webp",
+      "SourceId": "BookmallMenu",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\",
+      "BasePath": "_content/BookmallMenu",
+      "RelativePath": "assets/img/food/35ddfa33-ad74-4d33-9d2c-dbc74eb147e8-dusbere.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\food\\35ddfa33-ad74-4d33-9d2c-dbc74eb147e8-dusbere.webp"
+    },
+    {
       "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\3f302569-8e1f-4284-909d-ec8490b6c50d-capucino.jfif",
       "SourceId": "BookmallMenu",
       "SourceType": "Discovered",
@@ -3553,6 +3570,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\food\\664e18f6-65b9-4bdd-b219-00d2c43430a0-bowl.jpg"
     },
     {
+      "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\708e40e1-c8f8-42e0-aaa0-79c1be1814ee-dusbere.webp",
+      "SourceId": "BookmallMenu",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\",
+      "BasePath": "_content/BookmallMenu",
+      "RelativePath": "assets/img/food/708e40e1-c8f8-42e0-aaa0-79c1be1814ee-dusbere.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\food\\708e40e1-c8f8-42e0-aaa0-79c1be1814ee-dusbere.webp"
+    },
+    {
       "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\8d0037fd-7c82-4d00-b4a4-58fe78ef1188-krevetka.jpg",
       "SourceId": "BookmallMenu",
       "SourceType": "Discovered",
@@ -3587,6 +3621,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\food\\95308f42-0892-4508-ac39-cb8530781cab-stalicni.jpg"
     },
     {
+      "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\9d3bebb8-9c8b-4b79-8da4-f2ff812007ca-bors.jpg",
+      "SourceId": "BookmallMenu",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\",
+      "BasePath": "_content/BookmallMenu",
+      "RelativePath": "assets/img/food/9d3bebb8-9c8b-4b79-8da4-f2ff812007ca-bors.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\food\\9d3bebb8-9c8b-4b79-8da4-f2ff812007ca-bors.jpg"
+    },
+    {
       "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\9e04dfe2-16af-4b6f-8488-fe4001e6a94e-urfa.jpeg",
       "SourceId": "BookmallMenu",
       "SourceType": "Discovered",
@@ -3604,6 +3655,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\food\\9e04dfe2-16af-4b6f-8488-fe4001e6a94e-urfa.jpeg"
     },
     {
+      "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\aa75938e-0245-4f3f-8e1d-50b9918a629c-bors.jpg",
+      "SourceId": "BookmallMenu",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\",
+      "BasePath": "_content/BookmallMenu",
+      "RelativePath": "assets/img/food/aa75938e-0245-4f3f-8e1d-50b9918a629c-bors.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\food\\aa75938e-0245-4f3f-8e1d-50b9918a629c-bors.jpg"
+    },
+    {
       "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\b3edd441-66a9-4fb6-a1a3-254c7800e872-amerikano.jpg",
       "SourceId": "BookmallMenu",
       "SourceType": "Discovered",
@@ -3619,6 +3687,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\food\\b3edd441-66a9-4fb6-a1a3-254c7800e872-amerikano.jpg"
+    },
+    {
+      "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\bebba059-a7b5-42db-be42-202368bb4e08-bors.jpg",
+      "SourceId": "BookmallMenu",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\",
+      "BasePath": "_content/BookmallMenu",
+      "RelativePath": "assets/img/food/bebba059-a7b5-42db-be42-202368bb4e08-bors.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\food\\bebba059-a7b5-42db-be42-202368bb4e08-bors.jpg"
     },
     {
       "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\c608da5d-867d-4a51-9550-f1c23a71d514-latte.jpg",
@@ -3670,6 +3755,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\food\\d7beaf0d-ff74-4594-976a-96c9887116e2-lule.jpg"
+    },
+    {
+      "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\img\\food\\f42b49ef-2bba-4ba6-841b-7fca96b07751-dusbere.webp",
+      "SourceId": "BookmallMenu",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\",
+      "BasePath": "_content/BookmallMenu",
+      "RelativePath": "assets/img/food/f42b49ef-2bba-4ba6-841b-7fca96b07751-dusbere.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\food\\f42b49ef-2bba-4ba6-841b-7fca96b07751-dusbere.webp"
     },
     {
       "Identity": "E:\\bookmall\\BookmallMenu\\BookmallMenu\\wwwroot\\assets\\js\\aos.js",

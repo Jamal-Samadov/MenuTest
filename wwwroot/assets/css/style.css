@@ -321,12 +321,12 @@ mark,
   .bookmallImg img{
     width: 100%;
   }
-  .bookmallImg{
-    width: 12%;
+.bookmallImg {
+    width: 15%;
     margin: auto;
     margin-bottom: 25px;
     margin-top: -50px;
-  }
+}
   
 
 .figure {
